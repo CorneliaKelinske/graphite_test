@@ -26,6 +26,16 @@ gb new_branch_name Title of PR
 gs
 ```
 
+## How to rebase
+
+Fix all the things as usual and then run
+
+```
+gt . && gt continue
+```
+
+Once you have finished all the rebasing, run `gs` one more time from `main`
+
 ## Mark pull request as ready for review
 
 ```
@@ -39,6 +49,15 @@ gl
 ```
 
 q to exit, you can use up and down arrows to navigate
+
+
+## Navigate up and down
+
+```
+gu
+
+gd
+```
 
 
 ## New habits
