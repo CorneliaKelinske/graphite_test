@@ -26,6 +26,21 @@ gb new_branch_name Title of PR
 gs
 ```
 
+## Mark pull request as ready for review
+
+```
+prr
+```
+
+## Look at a log of commits
+
+```
+gl
+```
+
+q to exit, you can use up and down arrows to navigate
+
+
 ## New habits
 
 Never add additional commits with any way other than `gb`, always use amend instead.
